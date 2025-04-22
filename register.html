@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IIMB Fest - Registration Page</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <header>
+
+        <div class="main-div">
+            <img src="https://www.iimb.ac.in/sites/default/files/inline-images/IIMB-Logo.png" alt="IIMB Logo" height="100px, 100px">
+            <h1>IIMB Fest - 2025</h1>
+    
+    
+        </div>
+       
+        <div class="h2-div">
+            <h2>Welcome to the best fest in banglore. Hope you have a great time.</h2>
+        </div>
+
+        <hr>
+
+        <nav class="home-button">
+            <button type="home page">
+                <a href="home.html">🏠 Home Page 🏠 </a>
+            </button>
+        </nav>
+
+        
+        
+    
+    </header>
+
+    <main>
+
+
+        <section class="register-font">
+
+            <h2>Register for the fest:</h2>
+
+            <form action="/register">
+
+                <label for="name">Enter Your Name:👉</label>
+                <input type="Text" name="Name" id="Name" minlength="2" maxlength="40" required>
+                <br><br>
+                <label for="email">Enter Your Email:👉</label>
+                <input type="email" name="email" id="email" required>
+                <br><br>
+                <label for="T_shirt_size">Select T-Shirt Size:👉</label>
+                <select name="T_shirt_size" id="T_shirt_size">
+                    <option value="-choose option-">-Choose option-</option>
+                    <option value="36">36</option>
+                    <option value="38">38</option>
+                    <option value="40">40</option>
+                    <option value="42">42</option>
+                    <option value="44">44</option>
+                </select>
+                <br><br>
+                <label for="checkbox1">Do  you agree to all conditions?</label>
+                <input type="checkbox" name="tnc" id="checkbox1" required>
+                <br> <br>
+                <label for="alumni">Alumni:</label>
+                <input type="radio" name="attendee_type" id="almuni" value="almuni">
+                <label for="student">Student:</label>
+                <input type="radio" name="attendee_type" id="student" value="student">
+                <br><br>
+
+                <nav class="sub-button">
+                    <button type="submit">Register</button>
+
+                </nav>
+    
+                
+            </form>
+            
+    
+    
+        </section>
+
+
+
+    </main>
+
+    <div class="image">
+        <img src="./image/excited-college.gif" alt="DJ Night Image" height="600px, 8000px">
+    </div>
+
+    <h5>
+        *END*
+    </h5>
+
+
+
+    
+
+
+    
+</body>
+</html>

@@ -1,0 +1,85 @@
+html{
+    background-color: #e8e3db;
+    
+}
+
+.main-div{
+    padding: 5px;
+    border: 7px solid #872828;
+    border-width: 0px 0px 7px 0px;
+
+}
+
+
+
+.h2-div{
+    text-align: center;
+    color: #b12322;
+    padding: 25px;
+    font-family: "Great Vibes", cursive;
+        font-weight: 400;
+        font-style: normal; 
+
+      
+}
+
+.button-align{
+    text-align: center;
+    border: #872828 ;
+    
+}
+
+.ins-align{
+    text-align: center;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0px 750px 0px 750px;
+}
+
+.image{
+    text-align: center;
+    padding: 50px;
+    size: 500px 5000px;
+    
+}
+
+button{
+    color: #ebccd1;
+    padding: 15px 25px;
+    background-color: #b12322;
+    border-radius: 10px;
+    border: #bbbbbb;
+}
+
+button:hover{
+    color: #b12322;
+    background-color: #ebccd1;
+}
+
+button:active{
+    color: #872828;
+    background-color: #007aff;
+}
+
+h5{
+    text-align: center;
+    border: 10px solid #666666;
+    border-width: 0px 0px 10px 0px;
+}
+
+h2{
+    color: #b12322;
+}
+
+h1{
+    color: #872828;
+    font-size: 50px;
+    padding: 0px 750px 0px 750px;
+}
+
+
+.main-div{
+    img{
+        float: left;
+    }
+}
